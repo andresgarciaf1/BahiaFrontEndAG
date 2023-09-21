@@ -33,4 +33,5 @@ footer{background-color: #f75983;width:35%;}
 .FB{width: 12%;}
 .IG{width: 12%;}
 aside{background-color:green; width:35%;}
-.btn-wsp{position: fixed;width: 100px;height: 100px;line-height: 80px;bottom: 50px;right: 50px;background: green;color: white;border-radius: 80px;text-align: center;font-size: 60px;box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);z-index: 100}
+.btn-wsp{position: fixed;width: 100px;height: 100px;line-height: 80px;bottom: 50px;right: 50px;background: green;color: white;border-radius: 80px;text-align: center;font-size: 60px;box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);z-index: 100;}
+.btn-wsp:hover{text-decoration: none;color: green;background: white;}
