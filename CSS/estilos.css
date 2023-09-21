@@ -1,17 +1,36 @@
-body{background-image: url(https://media.istockphoto.com/id/1162608384/es/foto/amplio-paisaje-marino-16-9-cielo-nublado-mar-y-una-franja-de-playa-de-arena-en-primer-plano.jpg?s=612x612&w=0&k=20&c=aYkT71uD1eU_fCQjW1fJMiR_lPyKFVyrwownKwAtfYw=);}
+body{background-image: url(../IMAGENES/playa.jpeg);
+background-color: #f7bc29;
+background-repeat: no-repeat;
+background-position: right;
+background-attachment: fixed;}
 .subtituloamarillo{color: yellow}
 .colortierra{color: #4F4C4B;}
-.colorverde{color: #329450;}
+.colortierra1{color: #4F4C4B;}
 .colorrojo{color: #980A06;}
 .coloroscuro{color: #210F00;}
-.colorazul{color: blue;}
-h1{font-size: 70px;text-align: center;text-decoration: underline;}
+.colortierra1{color: #4F4C4B;}
+h1{font-size: 60px;text-align: center;text-decoration: underline;}
 h2{font-size: 50px;text-align: center;text-decoration: underline;}
-p{font-size: 35px;text-align: justify;}
+p{font-size: 35px;text-align: center;}
 h3{font-size: 35px;text-align: center;text-decoration: underline;}
 ul{font-size: 25px;text-align: left;}
 h4{font-size: 35px;text-align: center;text-decoration: underline;}
 ol{font-size: 25px;text-align: left;}
 .img1{width: 100px; height: 100px;}
 .img2{width: 1000px; height: 400px;}
-.img3{width: 1000px; height: 400px;}
+.img3{width: 1px; height: 1px;}
+.conborde {border: 10px solid blue;padding: 30px;margin: 50px;width:47%;}
+header{background-color:yellow;
+width: 50%;}
+section{background-color: green;
+width: 50%;}
+.conborde1 {border: 10px solid blue; padding: 30px; margin: 10px;width: 50%;}
+.colortierra{border: 20px solid blue; padding: 50px; margin: 20px; width:70%}
+.colortierra1{border: 10px solid blue; padding: 50px; margin: 20px; width:70%}
+nav {background-color: #b3f5f9;width: 40%;}
+.ENLACES{font-size: 20px;text-align: left;;text-decoration: underline;}
+footer{background-color: #f75983;width:35%;}
+.FB{width: 12%;}
+.IG{width: 12%;}
+aside{background-color:green; width:35%;}
+.btn-wsp{position: fixed;width: 100px;height: 100px;line-height: 80px;bottom: 50px;right: 50px;background: green;color: white;border-radius: 80px;text-align: center;font-size: 60px;box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);z-index: 100}
