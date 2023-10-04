@@ -2,46 +2,47 @@ body{background-color: #f7bc29;}
 
 
 
-h2{font-family: 'Martian Mono', monospace;font-size: 4vh;text-align: center;margin-left: 10px;color: #980A06;}
+h2{font-family: 'Martian Mono', monospace;font-size: 4vh;text-align: center;color: #980A06;}
 p{font-family: 'Inclusive Sans', sans-serif;font-size: 3vh;text-align: center;color: #210F00;}
 h3{font-size: 4vh;text-align: center;color: #980A06;}
 ul{font-family: 'Open Sans', sans-serif;font-size: 2.7vh;text-align: center;color: #210F00;}
 h4{font-size: 4vh;text-align: center;color: #980A06;}
 ol{font-family: 'Playfair Display', serif;font-size: 2.7vh;text-align: center;color: #210F00;}
 .CENTRADOIMAGENES{text-align: center;}
-.img1{width: 50vh;background-color: red;}
-.img2{width: 50vh;}
-.conborde {width:85vh;}
+.img1{width: 10vh;background-color: red;}
+
+.conborde {width:85vh;text-align: center;}
 
 
-header{background-color:yellow;padding: 10px;display: flex;flex-wrap: wrap;text-align: left;justify-content:space-between;align-items: center;}
-.logo{width: 65vh;text-align: left;display: block;}
-h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;color: #4F4C4B;}
+header{background-color:yellow;padding: 3vh;display: flex;flex-wrap: wrap;text-align: left;justify-content:space-between;align-items: center;}
+.logo{width: 45vh;text-align: left;display: block;}
+h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;color: #4F4C4B;text-align: center;}
 
 
 
 nav{float: right;}
 nav ul{list-style: none;overflow: hidden;position: fixed;text-align: left;}
 nav ul li{float: right;}
-nav ul li a{display: block;padding: 20px;color: #10351c;text-decoration: none; font-size:2.2vh;}
+nav ul li a{display: block;padding: 4vh;color: #10351c;text-decoration: none; font-size:1.8vh;font-style: oblique;font-weight: bold;}
 nav ul li:hover{background: black;}
 section{background-color: green;width: 80vh;text-align: center;}
-.conborde1 {width: 85vh;}
+.conborde1 {width: 85vh; text-align: center;}
+
+.videoyoutube{position: relative;padding-bottom: 30%;height: 0;overflow: hidden;}
+.videoyoutube iframe{position: absolute;top: 0;padding-left: 40%;width:auto;}
 
 
-
-
-footer{background-color: brown;padding: 20px;display: flex;flex-wrap: wrap;text-align: left;justify-content: space-between;align-items: center;}
-a{display: inline-block;padding: 10px;border-radius: 5px;text-decoration: none;font-size: 4vh;font-weight: bold;}
-.infocontacto{font-size: 18px; text-align: right;color: #f5f403;}
+footer{background-color: brown;padding: 4vh;display: flex;flex-wrap: wrap;text-align: center;justify-content: space-between;align-items: center;}
+.redessociales a{padding: 1vh;text-decoration: none;font-size: 3vh; padding-left: 50%;}
+.infocontacto{font-size: 2.5vh; text-align: right;color: #f5f403;}
 
 
 aside{background-color:green; width:35vh;}
-.btn-wsp{position: fixed;width: 10vh;line-height: 10vh;bottom: 20vh;right: 5vh;background: green;border-radius: 10vh;color: white;text-align: center;font-size: 6vh;box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);z-index: 100;}
+.btn-wsp{position: fixed;width: 8vh;line-height: 8vh;bottom: 26vh;right: 5vh;background: green;border-radius: 6vh;color: white;text-align: center;font-size: 6vh;box-shadow: 0vh 1vh 10vh rgba(0, 0, 0, 0.1);z-index: 80;}
 .btn-wsp:hover{text-decoration: none;color: green;background: white;}
 
-.FB{width: 10vh;}
-.IG{width: 10vh;}
+.FB{width: 5vh;}
+.IG{width: 5vh;}
 
 .contactos:hover{background: black; width: 25vw;}
 .contactos a{font-size: 4vh;}
