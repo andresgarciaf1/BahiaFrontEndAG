@@ -20,9 +20,9 @@ h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;c
 
 
 
-nav{float: right;}
-nav ul{list-style: none;position: fixed;text-align: left;}
-nav ul li{float: right;}
+nav{float: right;display: flex;flex-wrap: wrap;}
+nav ul{list-style: none;position: fixed;text-align: left;display: flex;flex-wrap: wrap;}
+nav ul li{float: right;display: flex;flex-wrap: wrap;}
 nav ul li a{display: block;padding: 4vh;color: #10351c;text-decoration: none; font-size:1.6vh;font-style: oblique;font-weight: bold;text-align: right;justify-content: space-between;}
 nav ul li:hover{background: black;}
 section{background-color: green;width: 50%;text-align: left;}
@@ -33,8 +33,8 @@ section{background-color: green;width: 50%;text-align: left;}
 
 
 footer{background-color: brown;padding: 4vh;display: flex;flex-wrap: wrap;text-align: center;justify-content: space-between;align-items: center;}
-.redessociales a{padding: 1vh;text-decoration: none;font-size: 3vh; padding-left: 50%;}
-.infocontacto{font-size: 2.5vh; text-align: right;color: #f5f403;}
+.redessociales a{padding: 1vh;text-decoration: none;font-size: 3vh; text-align: center;}
+.infocontacto{font-size: 2.5vh; text-align: center;;color: #f5f403;}
 
 
 aside{background-color:green; width:35vh;}
