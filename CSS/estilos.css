@@ -16,7 +16,7 @@ ol{font-family: 'Playfair Display', serif;font-size: 2.7vh;text-align: center;co
 
 header{background-color:yellow;padding: 3vh;display: flex;flex-wrap: wrap;text-align: center;justify-content: space-between;align-items: center;}
 .logo{width: 45vh;text-align: left;display: block;}
-h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;color: #4F4C4B;text-align: center;}
+h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;color:#4F4C4B;text-align: center;}
 
 
 
