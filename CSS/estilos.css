@@ -38,7 +38,7 @@ footer{background-color: brown;padding: 4vh;display: flex;flex-wrap: wrap;text-a
 
 
 aside{background-color:green; width:35vh;}
-.btn-wsp{position: fixed;width: 8vh;line-height: 8vh;bottom: 26vh;right: 5vh;background: green;border-radius: 6vh;color: white;text-align: center;font-size: 6vh;box-shadow: 0vh 1vh 10vh rgba(0, 0, 0, 0.1);z-index: 80;}
+.btn-wsp{position: fixed;width: 8vh;line-height: 8vh;bottom: 2vh;right: 5vh;background: green;border-radius: 6vh;color: white;text-align: center;font-size: 6vh;box-shadow: 0vh 1vh 10vh rgba(0, 0, 0, 0.1);z-index: 80;}
 .btn-wsp:hover{text-decoration: none;color: green;background: white;}
 
 .FB{width: 8vh;}
