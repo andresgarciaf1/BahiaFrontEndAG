@@ -14,7 +14,7 @@ ol{font-family: 'Playfair Display', serif;font-size: 2.7vh;text-align: center;co
 .conborde {width:85vh;text-align: center;}
 
 
-header{background-color:yellow;padding: 3vh;display: flex;flex-wrap: wrap;text-align: left;justify-content:space-between;align-items: center;}
+header{background-color:yellow;padding: 3vh;display: flex;flex-wrap: wrap;text-align: center;justify-content: space-between;align-items: center;}
 .logo{width: 45vh;text-align: left;display: block;}
 h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;color: #4F4C4B;text-align: center;}
 
@@ -22,10 +22,10 @@ h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;c
 
 nav{float: right;}
 nav ul{list-style: none;overflow: hidden;position: fixed;text-align: left;}
-nav ul li{float: right;}
-nav ul li a{display: block;padding: 4vh;color: #10351c;text-decoration: none; font-size:1.8vh;font-style: oblique;font-weight: bold;}
+nav ul li{float: left;}
+nav ul li a{display: block;padding: 4vh;color: #10351c;text-decoration: none; font-size:1.6vh;font-style: oblique;font-weight: bold;text-align: right;}
 nav ul li:hover{background: black;}
-section{background-color: green;width: 80vh;text-align: center;}
+section{background-color: green;width: 50%;text-align: left;}
 .conborde1 {width: 85vh; text-align: center;}
 
 .videoyoutube{position: relative;padding-bottom: 30%;height: 0;overflow: hidden;}
@@ -41,8 +41,8 @@ aside{background-color:green; width:35vh;}
 .btn-wsp{position: fixed;width: 8vh;line-height: 8vh;bottom: 26vh;right: 5vh;background: green;border-radius: 6vh;color: white;text-align: center;font-size: 6vh;box-shadow: 0vh 1vh 10vh rgba(0, 0, 0, 0.1);z-index: 80;}
 .btn-wsp:hover{text-decoration: none;color: green;background: white;}
 
-.FB{width: 5vh;}
-.IG{width: 5vh;}
+.FB{width: 8vh;}
+.IG{width: 8vh;}
 
 .contactos:hover{background: black; width: 25vw;}
 .contactos a{font-size: 4vh;}
