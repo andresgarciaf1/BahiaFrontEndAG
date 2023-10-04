@@ -1,7 +1,4 @@
 body{background-color: #f7bc29;}
-
-
-
 h2{font-family: 'Martian Mono', monospace;font-size: 4vh;text-align: center;color: #980A06;}
 p{font-family: 'Inclusive Sans', sans-serif;font-size: 3vh;text-align: center;color: #210F00;}
 h3{font-size: 4vh;text-align: center;color: #980A06;}
@@ -10,16 +7,10 @@ h4{font-size: 4vh;text-align: center;color: #980A06;}
 ol{font-family: 'Playfair Display', serif;font-size: 2.7vh;text-align: center;color: #210F00;}
 .CENTRADOIMAGENES{text-align: center;}
 .img1{width: 10vh;background-color: red;}
-
 .conborde {width:85vh;text-align: center;}
-
-
 header{background-color:yellow;padding: 3vh;display: flex;flex-wrap: wrap;text-align: center;justify-content: space-between;align-items: center;}
 .logo{width: 45vh;text-align: left;display: block;}
 h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;color:#4F4C4B;text-align: center;}
-
-
-
 nav{float: right;;display: flex;flex-wrap: wrap;}
 nav ul{list-style: none;position: fixed;text-align: left;display: flex;flex-wrap: wrap;top: 30%;}
 nav ul li{display: flex;flex-wrap: wrap;}
@@ -27,23 +18,16 @@ nav ul li a{display: block;padding: 4vh;color: #10351c;text-decoration: none; fo
 nav ul li:hover{background: black;}
 section{background-color: green;width: 50%;text-align: left;}
 .conborde1 {width: 85vh; text-align: center;}
-
 .videoyoutube{position: relative;padding-bottom: 30%;height: 0;overflow: hidden;}
 .videoyoutube iframe{position: absolute;top: 0;padding-left: 40%;width:auto;}
-
-
 footer{background-color: brown;padding: 4vh;display: flex;flex-wrap: wrap;text-align: center;justify-content: space-between;align-items: center;}
 .redessociales a{padding: 1vh;text-decoration: none;font-size: 3vh; text-align: center;}
 .infocontacto{font-size: 2.5vh; text-align: center;;color: #f5f403;}
-
-
 aside{background-color:green; width:35vh;}
 .btn-wsp{position: fixed;width: 8vh;line-height: 8vh;bottom: 2vh;right: 5vh;background: green;border-radius: 6vh;color: white;text-align: center;font-size: 6vh;box-shadow: 0vh 1vh 10vh rgba(0, 0, 0, 0.1);z-index: 80;}
 .btn-wsp:hover{text-decoration: none;color: green;background: white;}
-
 .FB{width: 8vh;}
 .IG{width: 8vh;}
-
 .contactos:hover{background: black; width: 25vw;}
 .contactos a{font-size: 4vh;}
 .index:hover{background: blue;width: 25vw}
