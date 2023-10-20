@@ -1,0 +1,45 @@
+body{background-color: #f7bc29;}
+@media(min-width:992px) {.paisaje{display:none;}}
+nav{display: flex;flex-wrap: wrap;}
+nav ul{bottom: 91vh;list-style: none;position: fixed;text-align: right;display: flex;flex-wrap: wrap;}
+nav ul li{display: flex;flex-wrap: wrap;}
+nav ul li a{display: block;padding: 4vh ;color: black;text-decoration: none;font-family: sans-serif;font-size:70%;font-style: oblique;font-weight: bold;justify-content: space-between;}
+nav ul li:hover{background: #22c1c3;height: 7vh;}
+h2{font-family: 'Martian Mono', monospace;font-size: 3vh;text-align: center;color: #980A06;padding-top: 3%;font-weight: bold;}
+@media (max-width:575px) {h2{color: blue; font-family: cursive;}}
+@media (min-width:575px) {h2{color: #06660f; font-family: fantasy;}}
+@media (orientation: landscape) and (max-width:767px) {h2{color: #f701db; font-family:monospace;}}
+@media (min-width:768px) and (max-width:991px){h2{color:#fc466b;}}
+p{font-family: 'Inclusive Sans', sans-serif;font-size: 3vh;text-align: center;color: #210F00;}
+h3{font-size: 4vh;text-align: center;color: #980A06;}
+ul{font-family: 'Open Sans', sans-serif;font-size: 2.7vh;text-align: center;color: #210F00;}
+h4{font-size: 4vh;text-align: center;color: #980A06;}
+ol{font-family: 'Playfair Display', serif;font-size: 2.7vh;text-align: center;color: #210F00;}
+.CENTRADOIMAGENES{text-align: center;}
+.img1{width: 10vh;background-color: brown;}
+.conborde {width:85vh;text-align: center;}
+header{background-color:yellow;padding: 3vh;display: flex;flex-wrap: wrap;text-align: center;justify-content: space-between;align-items: center;}
+.logo{width: 30vh;text-align: left;display: block;}
+h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;color:black;text-align: center;}
+@media (max-width:575px) {h1{color: blue; font-family: cursive;}}
+@media (min-width:575px) {h1{color: #06660f; font-family: fantasy;}}
+@media (orientation: landscape) and (max-width:767px) {h1{color: #f701db; font-family:monospace;}}
+@media (min-width:768px) and (max-width:991px){h1{color:#fc466b;}}
+
+section{background-color: #798c17;width: 50%;text-align: left;}
+.conborde1 {width: 85vh; text-align: center;}
+.videoyoutube{position: relative;padding-bottom: 30%;height: 0;overflow: hidden;}
+.videoyoutube iframe{position: absolute;top: 0;padding-left: 40%;width:auto;}
+@media(max-width:767px) {.videoyoutube{display:none;}}
+footer{background-color: brown;padding: 4vh;display: flex;flex-wrap: wrap;text-align: center;justify-content: space-between;align-items: center;}
+.redessociales a{padding: 1vh;text-decoration: none;font-size: 3vh; text-align: center;}
+.infocontacto{font-size: 2.5vh; text-align: center;;color: #f5f403;}
+aside{background-color:green; width:35vh;}
+.btn-wsp{position: fixed;width: 8vh;line-height: 8vh;bottom: 2vh;right: 5vh;background: green;border-radius: 6vh;color: white;text-align: center;font-size: 6vh;box-shadow: 0vh 1vh 10vh rgba(0, 0, 0, 0.1);z-index: 80;}
+.btn-wsp:hover{text-decoration: none;color: green;background: white;}
+.FB{width: 8vh;}
+.IG{width: 8vh;}
+.contactos:hover{background: black; width: 25vw;}
+.contactos a{font-size: 4vh;}
+.index:hover{background: blue;width: 25vw}
+.card-text{font-size: 2vh;}
