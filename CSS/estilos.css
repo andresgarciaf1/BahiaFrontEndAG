@@ -1,7 +1,11 @@
-
 body{background-color: #f7bc29;}
 @media(min-width:992px) {.paisaje{display:none;}}
-h2{font-family: 'Martian Mono', monospace;font-size: 4vh;text-align: center;color: #980A06;}
+nav{display: flex;flex-wrap: wrap;}
+nav ul{bottom: 91vh;list-style: none;position: fixed;text-align: right;display: flex;flex-wrap: wrap;}
+nav ul li{display: flex;flex-wrap: wrap;}
+nav ul li a{display: block;padding: 4vh ;color: black;text-decoration: none;font-family: sans-serif;font-size:70%;font-style: oblique;font-weight: bold;justify-content: space-between;}
+nav ul li:hover{background: #22c1c3;height: 7vh;}
+h2{font-family: 'Martian Mono', monospace;font-size: 3vh;text-align: center;color: #980A06;padding-top: 3%;font-weight: bold;}
 @media (max-width:575px) {h2{color: blue; font-family: cursive;}}
 @media (min-width:575px) {h2{color: #06660f; font-family: fantasy;}}
 @media (orientation: landscape) and (max-width:767px) {h2{color: #f701db; font-family:monospace;}}
@@ -15,17 +19,13 @@ ol{font-family: 'Playfair Display', serif;font-size: 2.7vh;text-align: center;co
 .img1{width: 10vh;background-color: brown;}
 .conborde {width:85vh;text-align: center;}
 header{background-color:yellow;padding: 3vh;display: flex;flex-wrap: wrap;text-align: center;justify-content: space-between;align-items: center;}
-.logo{width: 45vh;text-align: left;display: block;}
+.logo{width: 30vh;text-align: left;display: block;}
 h1{font-family: 'Martian Mono', monospace; display:inline-block;font-size: 5vh;color:black;text-align: center;}
 @media (max-width:575px) {h1{color: blue; font-family: cursive;}}
 @media (min-width:575px) {h1{color: #06660f; font-family: fantasy;}}
 @media (orientation: landscape) and (max-width:767px) {h1{color: #f701db; font-family:monospace;}}
 @media (min-width:768px) and (max-width:991px){h1{color:#fc466b;}}
-nav{display: flex;flex-wrap: wrap;}
-nav ul{list-style: none;position: fixed;text-align: right;display: flex;flex-wrap: wrap;top: 30%;}
-nav ul li{display: flex;flex-wrap: wrap; text-align: right;}
-nav ul li a{display: block;padding: 4vh;color: black;text-decoration: none;font-family: sans-serif;font-size:100%;font-style: oblique;font-weight: bold;text-align: right;justify-content: space-between;}
-nav ul li:hover{background: #22c1c3;}
+
 section{background-color: #798c17;width: 50%;text-align: left;}
 .conborde1 {width: 85vh; text-align: center;}
 .videoyoutube{position: relative;padding-bottom: 30%;height: 0;overflow: hidden;}
@@ -42,3 +42,4 @@ aside{background-color:green; width:35vh;}
 .contactos:hover{background: black; width: 25vw;}
 .contactos a{font-size: 4vh;}
 .index:hover{background: blue;width: 25vw}
+.card-text{font-size: 2vh;}
