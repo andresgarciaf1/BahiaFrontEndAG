@@ -1,0 +1,2 @@
+function cambiarfondo() {document.getElementById("oscuro1").style.color = "white";document.body.style.backgroundColor = "black";document.getElementById("oscuro2").style.color = "white";document.getElementById("oscuro3").style.color = "white";document.getElementById("oscuro4").style.color = "white";document.getElementById("oscuro5").style.color = "white";document.getElementById("oscuro6").style.color = "white";document.getElementById("oscuro7").style.color = "white";}
+function cartel() {alert("ANDRES GARCIA;andresgarcia_f1@hotmail.com;+5492915045088")}

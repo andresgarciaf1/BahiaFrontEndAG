@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Inclusive+Sans&family=Martian+Mono:wght@100;400&family=Open+Sans:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<script>alert("Bienvenido/a.... estás a un click de conocer una Ensaladita riquisima. Dale, pasá!")</script>
   </head>
   <body>
     <nav>
@@ -33,22 +34,22 @@
   <header>
 
       <img class="logo" src="./IMAGENES/logo.jpeg" alt="logo">
-      <h1>Ensalada Mediterranea</h1>
+      <h1 id="oscuro1">Ensalada Mediterranea</h1>
       <div class="redessociales">
         <a href="https://www.facebook.com"target="_blank">
           <img class="FB" src="./IMAGENES/facebook.png"class="img1"alt="imagen con link a Facebook"> </a>
           <a href="https://www.instagram.com"target="_blank">
             <img class="IG"src="./IMAGENES/instagram.png"class="img1"alt="imagen con link a IG">  </a>
       </div>
+        <button  onclick="cambiarfondo()">NIGHT MODE</button>
       <br>
     </header>
 <section>
-
-<h2>Origen</h2>
-      <p>La ensalada mediterránea también es conocida como ensalada griega, sin embargo, los griegos son los únicos que no la llaman así. Esta se compone de alimentos característicos de la zona del mediterráneo, tal y como las hojas verdes y los rábanos.</p>
+<h2 id="oscuro2">Origen</h2>
+      <p id="oscuro3">La ensalada mediterránea también es conocida como ensalada griega, sin embargo, los griegos son los únicos que no la llaman así. Esta se compone de alimentos característicos de la zona del mediterráneo, tal y como las hojas verdes y los rábanos.</p>
       <br>
-<h3>Ingredientes</h3>
-      <ul>
+<h3 id="oscuro4">Ingredientes</h3>
+      <ul id="oscuro5">
         <li>1 taza de rábanos </li>
         <li>Mix de hojas verdes (lechuga, espinaca, brotes)</li>
         <li>1 taza de tomates cherry</li>
@@ -63,8 +64,8 @@
         <li>Sal y pimienta </li>
       </ul>
       <br><br>
-      <h4>Preparación</h4>
-      <ol>
+      <h4 id="oscuro6">Preparación</h4>
+      <ol id="oscuro7">
         <li>Lavar con abundante agua fria todas las verduras a utilizar</li>
         <li>Colocar en un bowl o fuente honda el jugo de limon,el vinagre y sal y pimienta a gusto</li>
         <li>Colocar los rabanos, pepinos y cebolla en el bowl o fuente honda, previamente cortados al tamańo deseado</li>
@@ -103,7 +104,7 @@
 <div class="container">
   <div class="row">
   <div class="col-sm-12 col-md-6 col-lg-3">
-    <div class="card" style="width: 14rem;">
+    <div class="card">
       <img src="https://www.divinacocina.es/wp-content/uploads/ensalada-mediterranea2.jpg" class="card-img-top" alt="divina cocina">
       <div class="card-body">
         <h5 class="card-title">receta one</h5>
@@ -113,7 +114,7 @@
     </div>
 </div>
 <div class="col-sm-12 col-md-6 col-lg-3">
-  <div class="card" style="width: 14rem;">
+  <div class="card">
     <img src="https://imag.bonviveur.com/ensalada-mediterranea.webp" class="card-img-top" alt="BonViveur">
     <div class="card-body">
       <h5 class="card-title">receta two</h5>
@@ -123,7 +124,7 @@
   </div>
 </div>
 <div class="col-sm-12 col-md-6 col-lg-3">
-  <div class="card" style="width: 14rem;">
+  <div class="card">
     <img src="https://www.lanacion.com.ar/resizer/v2/ensalada-LDIU3VB34VFG3L2PDQGXRMZRVQ.jpg?auth=f47aec882bbfd2f729c5071c3189787a469540b9adaf8fd06fa9897736e19930&width=880&height=586&quality=70&smart=true" class="card-img-top" alt="LaNacion Recetas">
     <div class="card-body">
       <h5 class="card-title">receta three</h5>
@@ -133,7 +134,7 @@
   </div>
 </div>
 <div class="col-sm-12 col-md-6 col-lg-3">
-  <div class="card" style="width: 14rem;">
+  <div class="card">
     <img src="https://cdn.recetasderechupete.com/wp-content/uploads/2020/12/Ensalada-mediterranea-1200x828.jpg" class="card-img-top" alt="RecetasQueSalen">
     <div class="card-body">
       <h5 class="card-title">receta four</h5>
@@ -154,16 +155,10 @@
           <img class="IG"src="./IMAGENES/instagram.png"class="img1"alt="imagen con link a IG">
         </a>
 </div>
-<h5>
-<div class="infocontacto">
-
-        <li>ANDRES GARCIA</li>
-        <li>andresgarcia_f1@hotmail.com</li>
-        <li>+5492915045088</li>
-      </div>
-</h5>
+    <button onclick="cartel()">Contáctame</button>
 </footer>
 <br>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="./JS/javascript.js"></script>
 </body>
 </html>
